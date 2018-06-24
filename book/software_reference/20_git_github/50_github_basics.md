@@ -36,7 +36,7 @@ and later with the public key created on the robot.
 <div class='requirements' markdown='1'>
 
 Requires: A public/private keypair already created and configured.
-This procedure is explained in [](#howto-create-key-pair).
+This procedure is explained in [](+software_reference#howto-create-key-pair).
 
 Results: You can access Github using the key provided.
 

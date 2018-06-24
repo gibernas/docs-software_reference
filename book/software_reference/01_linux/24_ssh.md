@@ -188,7 +188,7 @@ Requires: You have two computers, called "`![local]`" and "`![remote]`",
 Requires: The two computers are on the same network and they can ping each other.
 
 Requires: You have created a keypair for `![local-user]` on `![local]`.
-This procedure is described in [](#howto-create-key-pair).
+This procedure is described in [](+software_reference#howto-create-key-pair).
 
 Results: From the `![local]` computer, `![local-user]` will be able to log in to
   `![remote]` computer without a password.
