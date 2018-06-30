@@ -39,7 +39,7 @@ Edit the file:
 
     ~/.ssh/config
 
-(We suggest you use [VIM](#vim) to edit files; see a tutorial [here](http://http://www.openvim.com/).)
+(We suggest you use [VIM](#vim) to edit files; see a tutorial [here](http://www.openvim.com/).)
 
 Comment: laptop or duckiebot? - LP
 
