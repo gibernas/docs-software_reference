@@ -35,9 +35,13 @@ This is an interface to the on-line reference manuals. Whenever you meet some un
 
 Go to the directory you want. If you just use:
 
-    laptop $ cd
+    $ cd
 
-then you will go to your home directory, i.e., ~
+then you will go to your home directory, i.e., ~/home/user/
+
+To go up one directory use:
+
+    $ cd ..
 
 ## `sudo` {#sudo}
 
@@ -55,6 +59,12 @@ List all the files and documents in the current directory. From `~/.bashrc`, we 
 
 `cp fileA directoryB` will copy the file A to directory B. See more by executing `man cp`.
 
+## `mv` {#mv}
+
+`mv fileA directoryB` will move the file A to directory B. See more by executing `man mv`.
+This command can be used to rename a file, to do so execute:
+`mv fileA fileB`
+
 ## `mkdir` {#mkdir}
 
 Make new directory. See more by `man mkdir`.
@@ -62,6 +72,8 @@ Make new directory. See more by `man mkdir`.
 ## `touch` {#touch}
 
 Update the access and modification times of the input file to current time. See more by `man touch`.
+It can be used to create empty documents, for example:
+`touch duckie.txt` Will create an empty text file.
 
 ## `reboot` {#reboot}
 
@@ -74,7 +86,7 @@ This command requires `sudo`. You can set a countdown to shutdown you machine. M
 
 ## `rm` {#rm}
 
-Remove certain file. `rm -r` will remove files. More in `man rm`.
+Remove certain file. `rm -r` will also remove directories. More in `man rm`.
 
 # Users {#users-management status=draft}
 
@@ -187,7 +199,9 @@ TODO: to write
 
 ## `raspi-config` {#raspi-config}
 
-TODO: to write
+`raspi-config` Opens the configuration tool of the Raspberry Pi, it requires root privileges, so run it using:
+
+    duckiebot $ sudo raspi-config
 
 ## `vcgencmd` {#vcgencmd}
 
@@ -195,7 +209,9 @@ TODO: to write
 
 ## `raspistill` {#raspistill}
 
-TODO: to write
+`raspistill` Is the command to take a picture with the camera module of the Raspberry Pi. With your camera connected and enabled, run it with:
+
+    duckiebot $ raspistill -o somename.jpg
 
 
 ## `jstest` {#jstest}
@@ -216,7 +232,9 @@ TODO: to write
 
 ## `chmod` {#chmod}
 
-TODO: to write
+`chmod` changes permission to a file or a directory. To make a file executable run:
+
+    $ sudo chmod +x FILE
 
 ## `groups` {#groups}
 
