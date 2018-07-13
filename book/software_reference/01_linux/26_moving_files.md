@@ -2,17 +2,16 @@
 
 ## `scp` {#scp}
 
-TODO: to write
+The Secure Copy (scp) copies files from different hosts using ssh for data transfer.
 
 
 ### Download a file with SCP {#howto-download-file-with-scp}
+To download a file named `file.txt` which is on `hostname` use this command:
 
-Use this command:
+    laptop $ scp ![hostname]:/path/to/file.txt /path/where/you/whish/.
 
-    laptop $ scp ![hostname]:/path/to/out.jpg .
-
-to download `out.jpg` to your current directory.
-
+to download `file.txt` to `/path/where/you/whish/`. If you want to download in the current directory simply use:
+    laptop $ scp ![hostname]:/path/to/file.txt .
 
 ## `rsync` {#rsync}
 
