@@ -37,7 +37,7 @@ Go to the directory you want. If you just use:
 
     $ cd
 
-then you will go to your home directory, i.e., ~/home/user/
+then you will go to your home directory, i.e., `~/home/user/`
 
 To go up one directory use:
 
