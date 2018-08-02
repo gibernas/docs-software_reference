@@ -11,6 +11,7 @@ To download a file named `file.txt` which is on `hostname` use this command:
     laptop $ scp ![hostname]:/path/to/file.txt /path/where/you/whish/.
 
 to download `file.txt` to `/path/where/you/whish/`. If you want to download in the current directory simply use:
+
     laptop $ scp ![hostname]:/path/to/file.txt .
 
 ## `rsync` {#rsync}
